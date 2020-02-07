@@ -24,18 +24,18 @@ App = {
   },
 
   initWeb3: async function() {
-    // Modern dapp browsers...
+    // Modern dapp browsers
     if (window.ethereum) {
       App.web3Provider = window.ethereum;
       try {
         // Request account access
         await window.ethereum.enable();
       } catch (error) {
-        // User denied account access...
+        // User denied account access
         console.error("User denied account access")
       }
     }
-    // Legacy dapp browsers...
+    // Legacy dapp browsers
     else if (window.web3) {
       App.web3Provider = window.web3.currentProvider;
     }
