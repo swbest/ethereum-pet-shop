@@ -1195,11 +1195,12 @@
       "events": {},
       "links": {},
       "address": "0x7F4bD71Fc5942458Daf35146399294B41b9911D2",
-      "transactionHash": "0xc8a47f3e1651c9c777340a95c1ad68a79833ae5798c301bd025fc1a5dfb95f78"
+      "transactionHash": "0x705866271ac745599579f08e8ae00af058f83159007ba97e0e415090bea8df25"
     }
   },
   "schemaVersion": "3.0.23",
-  "updatedAt": "2020-02-06T19:23:25.210Z",
+  "updatedAt": "2020-02-07T09:44:55.297Z",
+  "networkType": "ethereum",
   "devdoc": {
     "methods": {}
   },
